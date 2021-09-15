@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Spawner
   - Tree
+  - Enemy
+  - DeadTree
   layers:
   - Default
   - TransparentFX
