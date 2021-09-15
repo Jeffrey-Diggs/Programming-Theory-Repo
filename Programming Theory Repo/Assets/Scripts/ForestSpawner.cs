@@ -14,7 +14,7 @@ public class ForestSpawner : MonoBehaviour
 
         for (int i = 0; i < treesAmount; i++)
         {
-            treeRandomPos = new Vector3(Random.Range(-75, 85), -3.8f, Random.Range(-39, 145));
+            treeRandomPos = new Vector3(Random.Range(-88, 94), -2.9f, Random.Range(-84, 94));
             Instantiate(treesArray[Random.Range(0, treesArray.Length)],treeRandomPos,Quaternion.Euler(0, Random.Range(0, 360),0));
         }
     }
